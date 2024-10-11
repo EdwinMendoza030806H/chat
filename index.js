@@ -100,6 +100,6 @@ io.on('connection', async (socket) => {
 });
 
 
-server.listen(3000, '192.168.100.24', () => {
-    console.log('Servidor corriendo en http://192.168.100.24:3000');
+server.listen(3000, '18.221.18.137', () => {
+    console.log('Servidor corriendo en http://18.221.18.137:3000');
 });
